@@ -276,7 +276,7 @@ address {
 .section-title {
   background: var(--background-footer);
   padding: 94px;
-  padding: 200px;
+  padding: 200px 0 200px 0;
 }
 
 .section-title .title {
