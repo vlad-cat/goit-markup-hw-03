@@ -9,7 +9,7 @@
 
 ul {
   list-style: none;
-  padding: none;
+  padding: 0;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 .list {
@@ -69,8 +69,6 @@ address {
   display: flex;
   align-items: center;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .ul {
@@ -99,8 +97,8 @@ address {
   display: flex;
 }
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .btn {
@@ -120,6 +118,7 @@ address {
   margin: auto;
   color: var(--text-white-color);
   background-color: var(--text-hover-color);
+  border: none;
 }
 
 .btn:hover,
@@ -247,6 +246,8 @@ address {
 }
 
 .site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -280,6 +281,8 @@ address {
 }
 
 .section-title .title {
+  max-width: 696px;
+  margin: 0 auto;
   margin-top: auto;
   margin-bottom: 40px;
   font-weight: 900;
@@ -323,6 +326,7 @@ address {
 
 .personal-qualities {
   display: flex;
+  gap: 30px;
 }
 
 .work-title {
