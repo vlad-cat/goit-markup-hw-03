@@ -202,6 +202,7 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--text-white-color);
+  
 }
 
 .web-footer {
@@ -380,6 +381,7 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--text-color);
+  margin-bottom: 10px;
 }
 .ourtaem p {
   font-weight: 400;
@@ -390,6 +392,7 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+  padding-bottom: 30px;
 }
 
 .list-works {
