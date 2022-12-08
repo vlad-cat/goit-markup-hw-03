@@ -98,7 +98,6 @@ address {
 }
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .btn {
@@ -340,7 +339,8 @@ address {
 
 .section-team {
   background: var(--text-section);
-  margin-bottom: 0;
+  padding-bottom: 94px;
+  margin-top: 94px;
 }
 
 .ourtaem {
