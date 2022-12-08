@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
 }
 
 .list {
@@ -72,7 +72,7 @@ address {
 }
 
 .ul {
-  margin: 0px;
+  margin-top: 94px;
   padding-left: 0px;
 }
 
@@ -276,7 +276,6 @@ address {
 
 .section-title {
   background: var(--background-footer);
-  padding: 94px;
   padding: 200px 0 200px 0;
 }
 
@@ -335,8 +334,8 @@ address {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--text-color);
+  margin-bottom: 50px;
 }
 
 .section-team {
@@ -346,7 +345,6 @@ address {
 
 .ourtaem {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .ourtaem li {
@@ -370,7 +368,7 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--text-color);
-  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .ourtaem h3 {
