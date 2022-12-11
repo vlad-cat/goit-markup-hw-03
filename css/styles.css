@@ -49,6 +49,14 @@ address {
   font-style: normal;
 }
 
+.contacts-footer li {
+  margin-bottom: 12px;
+}
+
+.footer li:last-child {
+  margin: 0;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -424,6 +432,7 @@ address {
   letter-spacing: 0.06em;
 
   color: var(--text-color);
+  padding-bottom: 4px;
 }
 
 .portfolio-description {
