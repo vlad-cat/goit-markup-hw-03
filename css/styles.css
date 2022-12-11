@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 .list {
@@ -98,6 +98,7 @@ address {
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .btn {
@@ -139,6 +140,7 @@ address {
   outline: none;
   border: none;
   cursor: pointer;
+  padding: 6px 22px;
 }
 .button:hover,
 .button:focus {
@@ -298,8 +300,8 @@ address {
   display: flex;
 }
 
-.work-list li {
-  margin-right: 30px;
+.work-list {
+  gap: 30px;
 }
 
 .qualities {
@@ -340,7 +342,6 @@ address {
 .section-team {
   background: var(--text-section);
   padding-bottom: 94px;
-  margin-top: 94px;
 }
 
 .ourtaem {
@@ -350,6 +351,7 @@ address {
 .ourtaem li {
   margin-right: 30px;
   background-color: white;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -360,6 +362,13 @@ address {
   padding-right: 15px;
 }
 
+.container-works {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 .ourtaem-title {
   font-weight: 700;
   font-size: 36px;
@@ -368,7 +377,7 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .ourtaem h3 {
@@ -391,7 +400,6 @@ address {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-  padding-bottom: 30px;
 }
 
 .list-works {
@@ -434,9 +442,6 @@ address {
 }
 
 .address-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
   margin-top: 28px;
   font-size: 14px;
   line-height: 1.14;
